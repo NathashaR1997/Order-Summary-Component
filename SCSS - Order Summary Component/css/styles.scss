@@ -1,0 +1,17 @@
+//GLOBAL
+@import "variables";
+@import "global";
+@import "mixins";
+
+
+@import "container";
+@import "topsection";
+@import "bottom";
+@import "annualplan";
+@import "button";
+
+// 01) containr:- main cotainer
+// 02) top section:- Image/top section of the card
+// 03) bottom:- The bottom section of the card
+// 04) annual plan:- annual plan section of the card
+// 05) button:- button styling

@@ -1,0 +1,145 @@
+html {
+  font-size: 100%;
+}
+
+*,
+*:after,
+*:before {
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  font-size: 16px;
+  margin: 0px;
+  align-items: center;
+}
+
+body {
+  background-image: url("../images/pattern-background-mobile.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #E0E8FF;
+}
+@media (min-width: 1024px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.png");
+  }
+}
+
+.container {
+  width: 350px;
+  min-height: 300px;
+  border-radius: 20px;
+  border-width: 1px;
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+@media (min-width: 1024px) {
+  .container {
+    width: 450px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
+.container_topimage img {
+  width: 100%;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+
+.bottom {
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+  padding: 50px 45px 50px 45px;
+  text-align: center;
+}
+.bottom h1 {
+  font-size: 25px;
+  font-weight: 900;
+  color: #1F2F56;
+  padding-bottom: 15px;
+}
+.bottom p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #7280A7;
+  line-height: 22px;
+}
+
+.annual-plan {
+  margin-top: 20px;
+  background-color: #F8F9FE;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  padding: 20px 15px;
+}
+.annual-plan_icn {
+  display: flex;
+  flex-direction: row;
+}
+.annual-plan_icn .circle img {
+  width: 48px;
+  height: 48px;
+  margin-right: 20px;
+}
+.annual-plan_icn .information {
+  font-size: 12px;
+  font-weight: 900;
+}
+.annual-plan_icn .information_topic {
+  color: #1F2F56;
+}
+@media (min-width: 1024px) {
+  .annual-plan_icn .information_topic {
+    font-size: 15px;
+  }
+}
+.annual-plan_change a {
+  color: #382AE1;
+  font-weight: 900;
+  font-size: 12px;
+}
+@media (min-width: 1024px) {
+  .annual-plan_change a {
+    font-size: 15px;
+  }
+}
+
+.button-click {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+  background-color: #382AE1;
+  margin-top: 30px;
+}
+.button-click a {
+  font-size: 12px;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.cancel {
+  margin-top: 25px;
+}
+.cancel a {
+  font-size: 12px;
+  font-weight: 900;
+  color: #7280A7;
+  text-decoration: none;
+}
+@media (min-width: 1024px) {
+  .cancel a {
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=styles.css.map */

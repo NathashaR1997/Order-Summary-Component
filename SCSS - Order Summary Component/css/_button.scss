@@ -1,0 +1,33 @@
+.button-click {
+    width:100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    background-color: $purple;
+    margin-top: 30px;
+
+    a {
+        font-size: 12px;
+        font-weight: 900;
+        color: $white;
+        text-decoration: none;
+    }
+}
+
+.cancel {
+    margin-top: 25px;
+
+    a {
+        font-size: 12px;
+        font-weight: 900;
+        color: $darkgrey;
+        text-decoration: none;
+
+        @include desktop {
+            font-size: 15px;
+        }
+    }
+}

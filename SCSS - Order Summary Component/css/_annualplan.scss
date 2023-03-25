@@ -1,0 +1,46 @@
+.annual-plan {
+    margin-top: 20px;
+    background-color: $lightgrey;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    padding: 20px 15px;
+
+    &_icn {
+        display: flex;
+        flex-direction: row;
+        .circle {
+            img {
+                width:48px;
+                height: 48px;
+                margin-right: 20px;
+            }
+        }
+
+        .information {
+            font-size: 12px;
+            font-weight: 900;
+            &_topic {
+                color: $darkblue;
+
+                @include desktop {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    &_change {
+        a {
+            color: $purple;
+            font-weight: 900;
+            font-size: 12px;
+
+            @include desktop {
+                font-size: 15px;
+            }
+        }
+    }
+}

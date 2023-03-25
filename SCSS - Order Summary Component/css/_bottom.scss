@@ -1,0 +1,20 @@
+.bottom {
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    padding: 50px 45px 50px 45px;
+    text-align: center;
+    
+    h1 {
+        font-size: 25px;
+        font-weight: 900;
+        color:$darkblue;
+        padding-bottom: 15px;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: 500;
+        color: $darkgrey;
+        line-height: 22px;
+    }
+}
